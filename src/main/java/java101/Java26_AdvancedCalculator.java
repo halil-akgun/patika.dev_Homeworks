@@ -136,8 +136,10 @@ public class Java26_AdvancedCalculator {
     static void factorial() {
         System.out.println("enter a POSITIVE number you want to find the factorial of");
         int num = scanner.nextInt();
-        int factorial = 1;
-        if (num > 0) {
+        int factorial;
+        if (num == 1) factorial = 1;
+        else if (num > 0) {
+            factorial = 1;
             for (int i = 2; i <= num; i++) {
                 factorial *= i;
             }
