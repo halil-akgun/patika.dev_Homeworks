@@ -2,7 +2,7 @@ package java101;
 
 import java.util.Scanner;
 
-public class Java28_GCD_LCM {
+public class Java28_GCD_LCM_Calculator {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
