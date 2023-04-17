@@ -9,7 +9,7 @@ Senaryo
 Sayı Giriniz : 22 22 sayısı ASAL değildir !
 Sayı Giriniz : 2 2 sayısı ASALDIR !
  */
-public class Java35_recursivePrime {
+public class Java35_RecursivePrime {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
