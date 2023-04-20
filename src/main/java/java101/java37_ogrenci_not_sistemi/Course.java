@@ -18,6 +18,12 @@ public class Course {
         this.prefix = prefix;
     }
 
+    public Course(Course course) {
+        this.name = course.getName();
+        this.code = course.getCode();
+        this.prefix = course.getPrefix();
+    }
+
     public void addTeacher(Teacher teacher) {
         if (prefix.equals(teacher.getBranch())) {
             this.teacher = teacher;

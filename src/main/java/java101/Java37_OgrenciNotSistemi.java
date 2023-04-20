@@ -26,7 +26,7 @@ import java101.java37_ogrenci_not_sistemi.Course;
 import java101.java37_ogrenci_not_sistemi.Student;
 import java101.java37_ogrenci_not_sistemi.Teacher;
 
-public class java37_OgrenciNotSistemi {
+public class Java37_OgrenciNotSistemi {
     public static void main(String[] args) {
 
         Teacher teacher1 = new Teacher("Ali", "123", "MAT");
@@ -41,16 +41,17 @@ public class java37_OgrenciNotSistemi {
         history.addTeacher(teacher2);
         turkish.addTeacher(teacher3);
 
-        Student GUL = new Student(1, "GUL", math, history, turkish);
-        Student hll = new Student(2, "hll", math, history, turkish);
+        Student GUL = new Student(1, "GUL", new Course(math), new Course(history), new Course(turkish));
 
         GUL.addBulkExamNote(100, 100, 100);
         GUL.addBulkOralExamNote(100, 100, 100);
         GUL.printNote();
 
+        Student hll = new Student(2, "hll", new Course(math), new Course(history), new Course(turkish));
         hll.addBulkExamNote(99, 99, 99);
         hll.addBulkOralExamNote(99, 99, 100);
         hll.printNote();
 
+        GUL.printNote(); // i fixed with Course(Course course) constructor
     }
 }
