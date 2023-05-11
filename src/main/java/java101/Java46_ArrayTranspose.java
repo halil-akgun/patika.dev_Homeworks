@@ -14,19 +14,19 @@ A^T (A üzeri T) ile gösterilir.
 
 Senaryo:
 
-Matris :
+Matris:
 2    3    4
 5    6    4
-Transpoze :
+Transpoze:
 2    5
 3    6
 4    4
 
-Matris :
+Matris:
 {2, 3, 4, 9},
 {2, 3, 4, 8},
 {5, 6, 4, 1}
-Transpoze :
+Transpoze:
 [2, 2, 5],
 [3, 3, 6],
 [4, 4, 4],
