@@ -185,12 +185,14 @@ public class Minesweeper {
 
     boolean isWin() {
         int countX = 0;
+        int countXOnlyPlayer = 0;
         for (int i = 0; i < rowLength; i++) {
             for (int j = 0; j < columnLength; j++) {
                 if (gameBoard[i][j].equals("X") && playerBoard[i][j].equals("X")) countX++;
+                else if (!gameBoard[i][j].equals("X") && playerBoard[i][j].equals("X")) countXOnlyPlayer++;
             }
         }
-        return countX == amountOfMines;
+        return countX == amountOfMines && countXOnlyPlayer == 0;
     }
 
     public void print(String[][] arr) {
