@@ -1,0 +1,14 @@
+@startuml
+class java.util.List
+class java101.Java50_UniversityDiagram.classes.Classroom
+class java101.Java50_UniversityDiagram.classes.Department
+class java101.Java50_UniversityDiagram.classes.Employee
+class java101.Java50_UniversityDiagram.classes.Office
+class java101.Java50_UniversityDiagram.classes.Officer
+class java101.Java50_UniversityDiagram.classes.Professor
+class java101.Java50_UniversityDiagram.classes.University
+java101.Java50_UniversityDiagram.classes.Department ..> java.util.List
+java101.Java50_UniversityDiagram.classes.Officer --|> java101.Java50_UniversityDiagram.classes.Employee
+java101.Java50_UniversityDiagram.classes.Professor --|> java101.Java50_UniversityDiagram.classes.Employee
+java101.Java50_UniversityDiagram.classes.University ..> java.util.List
+@enduml
