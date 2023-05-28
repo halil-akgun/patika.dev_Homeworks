@@ -1,4 +1,4 @@
-package java101.java38_BoksOyunu;
+package java101.Java38_BoksOyunu;
 
 public class Ring {
     Fighter f1;

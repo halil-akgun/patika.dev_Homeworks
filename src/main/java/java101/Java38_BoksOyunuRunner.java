@@ -1,9 +1,9 @@
 package java101;
 
-import java101.java38_BoksOyunu.Fighter;
-import java101.java38_BoksOyunu.Ring;
+import java101.Java38_BoksOyunu.Fighter;
+import java101.Java38_BoksOyunu.Ring;
 
-public class Java38_BoksOyunu {
+public class Java38_BoksOyunuRunner {
     public static void main(String[] args) {
         Fighter marc = new Fighter("Marc", 15, 100, 90, 50);
         Fighter alex = new Fighter("Alex", 10, 95, 100, 50);

@@ -22,9 +22,9 @@ Sözlü notların ıda ortalamaya etkileme yüzdesi ile dahil edin.
 Fizik Ortalaması : (90 * 0.20) + (60* 0.80);
  */
 
-import java101.java37_ogrenci_not_sistemi.Course;
-import java101.java37_ogrenci_not_sistemi.Student;
-import java101.java37_ogrenci_not_sistemi.Teacher;
+import java101.Java37_ogrenci_not_sistemi.Course;
+import java101.Java37_ogrenci_not_sistemi.Student;
+import java101.Java37_ogrenci_not_sistemi.Teacher;
 
 public class Java37_OgrenciNotSistemi {
     public static void main(String[] args) {

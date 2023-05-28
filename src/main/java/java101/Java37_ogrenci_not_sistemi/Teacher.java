@@ -1,4 +1,4 @@
-package java101.java37_ogrenci_not_sistemi;
+package java101.Java37_ogrenci_not_sistemi;
 
 //  Teacher Sınıfı Özellikleri :
 //  Nitelikler : name,mpno,branch

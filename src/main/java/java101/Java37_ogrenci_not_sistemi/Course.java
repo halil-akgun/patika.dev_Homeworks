@@ -1,4 +1,4 @@
-package java101.java37_ogrenci_not_sistemi;
+package java101.Java37_ogrenci_not_sistemi;
 
 //  Course Sınıfı Özellikleri :
 //  Nitelikler : name,code,prefix,note,Teacher

@@ -1,6 +1,6 @@
 package java101;
 
-import java101.java39_Employee.Employee;
+import java101.Java39_Employee.Employee;
 
 public class Java39_EmployeeRunner {
     public static void main(String[] args) {
